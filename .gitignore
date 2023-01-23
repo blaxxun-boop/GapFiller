@@ -1,0 +1,6 @@
+bin
+obj
+/packages
+GapFiller.sln.DotSettings.user
+.idea
+.vs
