@@ -10,7 +10,7 @@ namespace GapFiller;
 public class GapFiller : BaseUnityPlugin
 {
 	private const string ModName = "GapFiller";
-	private const string ModVersion = "1.0.1";
+	private const string ModVersion = "1.0.2";
 	private const string ModGUID = "org.bepinex.plugins.gapfiller";
 
 	public void Awake()
@@ -156,7 +156,7 @@ public class GapFiller : BaseUnityPlugin
 		item.RequiredItems.Add("LinenThread", 5);
 		item.RequiredUpgradeItems.Add("BlackMetal", 20);
 		item.RequiredUpgradeItems.Add("LinenThread", 2);
-		
+
 		item = new Item(assets, "GF_Mace_Marble");
 		item.Crafting.Add(CraftingTable.BlackForge, 1);
 		item.RequiredItems.Add("Iron", 15);
@@ -165,7 +165,7 @@ public class GapFiller : BaseUnityPlugin
 		item.RequiredUpgradeItems.Add("Iron", 7);
 		item.RequiredUpgradeItems.Add("BlackMarble", 10);
 		item.RequiredUpgradeItems.Add("ScaleHide", 3);
-		
+
 		item = new Item(assets, "GF_TH_Axe_Marble");
 		item.Crafting.Add(CraftingTable.BlackForge, 1);
 		item.RequiredItems.Add("Iron", 30);
