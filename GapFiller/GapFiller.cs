@@ -10,7 +10,7 @@ namespace GapFiller;
 public class GapFiller : BaseUnityPlugin
 {
 	private const string ModName = "GapFiller";
-	private const string ModVersion = "1.0.3";
+	private const string ModVersion = "1.0.4";
 	private const string ModGUID = "org.bepinex.plugins.gapfiller";
 
 	public void Awake()
